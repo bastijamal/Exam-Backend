@@ -1,0 +1,26 @@
+﻿@using Boocic.Models
+@model Services
+
+<div class=" container">
+
+
+    <form method="post" enctype="multipart/form-data">
+
+        <div class="mb-3">
+            <label asp-for="ImgFile" class="form-label">Photo</label>
+            <input asp-for="ImgFile" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Category" class="form-label">Category</label>
+            <input asp-for="Category" class="form-control">
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+
+</div>
